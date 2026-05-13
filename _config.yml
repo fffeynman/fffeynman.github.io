@@ -25,10 +25,10 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Astrophysics & Applied Math @ University of Leeds"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  pronouns         : "  
+  bio              : "I work on binary stars, asteroseismology and astrophysics fluids"
+  location         : "Leeds, UK"
+  employer         : "University of Leeds, UK"
   uri              : # URL
   email            : "z.guo2@leeds.ac.uk" 
 
