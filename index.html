@@ -6,6 +6,42 @@
   <title>Zhao Guo | Astrophysics & Applied Mathematics</title>
   <meta name="description" content="Zhao Guo — asteroseismology, stellar oscillations, tides, and astrophysical fluid dynamics.">
   <link rel="stylesheet" href="style.css">
+
+  <style>
+    /* Research figures: two columns on desktop, one column on small screens */
+    .research-figures {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+      align-items: start;
+      margin: 22px 0 8px 0;
+    }
+
+    .research-figures figure {
+      margin: 0;
+    }
+
+    .research-figures img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border: 1px solid #d7dadd;
+    }
+
+    .research-figures figcaption {
+      margin-top: 7px;
+      font-size: 0.92rem;
+      line-height: 1.35;
+      color: #555;
+      text-align: center;
+    }
+
+    @media (max-width: 700px) {
+      .research-figures {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -108,6 +144,26 @@
         <a href="https://nek5000.github.io/NekDoc/">Nek5000</a>,
         and <a href="https://dedalus-project.org/">Dedalus</a>.
       </p>
+
+      <div class="research-figures">
+        <figure>
+          <img src="images/FT_masstransfer.png"
+               alt="Mass transfer, buoyancy-frequency structure, and Fourier signatures in g-mode period spacings"
+               loading="lazy">
+          <figcaption>
+            Mass transfer signatures in the Brunt–Väisälä frequency and g-mode period-spacing pattern.
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/Magmode_wave_meanflow.png"
+               alt="Magneto-inertial modes, tidal resonances, and gravity-wave mean-flow interactions"
+               loading="lazy">
+          <figcaption>
+            Magneto-inertial modes, tidal resonances, and gravity-wave–mean-flow interactions.
+          </figcaption>
+        </figure>
+      </div>
     </section>
 
     <section id="service">
