@@ -8,40 +8,34 @@
   <link rel="stylesheet" href="style.css">
 
   <style>
-    /* Research figures: two columns on desktop, one column on small screens */
-    .research-figures {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 18px;
-      align-items: start;
-      margin: 22px 0 8px 0;
-    }
+  /* Research figures: full-width and stacked vertically */
+  .research-figures {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 28px;
+    margin: 24px 0 10px 0;
+  }
 
-    .research-figures figure {
-      margin: 0;
-    }
+  .research-figures figure {
+    margin: 0;
+    width: 100%;
+  }
 
-    .research-figures img {
-      display: block;
-      width: 100%;
-      height: auto;
-      border: 1px solid #d7dadd;
-    }
+  .research-figures img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid #d7dadd;
+  }
 
-    .research-figures figcaption {
-      margin-top: 7px;
-      font-size: 0.92rem;
-      line-height: 1.35;
-      color: #555;
-      text-align: center;
-    }
-
-    @media (max-width: 700px) {
-      .research-figures {
-        grid-template-columns: 1fr;
-      }
-    }
-  </style>
+  .research-figures figcaption {
+    margin-top: 7px;
+    font-size: 0.92rem;
+    line-height: 1.35;
+    color: #555;
+    text-align: center;
+  }
+</style>
 </head>
 
 <body>
